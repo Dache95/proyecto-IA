@@ -48,13 +48,13 @@
         <div class="max-w-[200px]">
             <img src="{ person }" alt="Nelson" class="w-full h-auto">
             <p class="font-bold text-[#504301]">Nelson Ordoñez</p>
-            <p class="text-[#504301]">5190-19-13376</p>
+            <p class="text-[#504301]">5190-19-15721</p>
         </div>
 
         <div class="max-w-[200px]">
             <img src="{ person }" alt="Emerson" class="w-full h-auto">
             <p class="font-bold text-[#504301]">Emerson Miranda</p>
-            <p class="text-[#504301]">5190-19-13376</p>
+            <p class="text-[#504301]">0906-02-6845</p>
         </div>
     </div>
 </div>

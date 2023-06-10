@@ -99,7 +99,7 @@ import Home from "./home.svelte";
 }
 
 .navbar a:hover {
-  color: #504301;
+  color: #106FE6;
 }
 
   </style>

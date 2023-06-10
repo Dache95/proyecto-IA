@@ -58,27 +58,27 @@
   <div class="mt-52">
     <div class="flex flex-row w-full justify-around h-auto mt-8">
         <div class="file-input">
-            <label for="upload-file" class="file-label text-[#504301]">Seleccionar Imagen</label>
+            <label for="upload-file" class="file-label text-[#106FE6]">Seleccionar Imagen</label>
             <input type="file" id="input-imagen" accept="image/*" />
         </div>
       
-        <button class="text-[#504301]" id="clasificar-btn">Clasificar imagen</button>
+        <button class="text-[#106FE6]" id="clasificar-btn">Clasificar imagen</button>
     </div>
   
     <div class="flex flex-row justify-around">
       <div>
         {#if $selectedImage}
-          <h3 class="font-bold text-2xl text-[#504301]">Imagen seleccionada:</h3>
+          <h3 class="font-bold text-2xl text-[#106FE6]">Imagen seleccionada:</h3>
           <img src={$selectedImage} alt="Imagen seleccionada" style="max-width: 500px; max-height: 500px;" />
         {/if}
       </div>
 
       <div>
         {#if $showResults && $results.length > 0}
-          <h2 class="font-bold text-2xl text-[#504301]">Resultados de la clasificación:</h2>
+          <h2 class="font-bold text-2xl text-[#106FE6]">Resultados de la clasificación:</h2>
           <ul>
             {#each $results.slice(0, 3) as result}
-              <li class="text-xl text-[#504301]">{result.label}</li>
+              <li class="text-xl text-[#106FE6]">{result.label}</li>
             {/each}
           </ul>
         {/if}
@@ -95,11 +95,11 @@
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer !important;
-  border: 2px solid #504301;
+  border: 2px solid #106FE6;
 }
 #clasificar-btn:hover {
   color: #ffffff;
-  background-color: #504301;
+  background-color: #106FE6;
 }
 
 .file-input {
@@ -112,11 +112,11 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  border: 2px solid #504301;
+  border: 2px solid #106FE6;
 }
 .file-label:hover {
   color: #ffffff;
-  background-color: #504301;
+  background-color: #106FE6;
 }
 .file-input input[type="file"] {
   position: absolute;

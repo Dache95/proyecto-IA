@@ -40,7 +40,6 @@
 
             const imageWithoutBG = cloudinary.image(publicId).effect(backgroundRemoval())
 
-            console.log(imageWithoutBG.toURL())
 
             imageState.set(ImageStates.DONE)
             processedImage.set(imageWithoutBG.toURL())
